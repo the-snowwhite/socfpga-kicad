@@ -1,0 +1,3 @@
+Plot file '/home/mib/Documents/KiCad/Touch-sense2/gerbers5/touchsense5-F.Cu.gbr' created.
+Plot file '/home/mib/Documents/KiCad/Touch-sense2/gerbers5/touchsense5-B.Cu.gbr' created.
+Plot file '/home/mib/Documents/KiCad/Touch-sense2/gerbers5/touchsense5-Edge.Cuts.gbr' created.
