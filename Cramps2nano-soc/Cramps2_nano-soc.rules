@@ -1,0 +1,86 @@
+
+(rules PCB Cramps2_nano-soc
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1570)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(ADC1-Pad1)" THERM0 THERM1 THERM2 AIN3 AIN0 AIN1 AIN2
+    "Net-(ADC1-Pad9)" "ADC_GND" "X_STEP" "X_DIR" "Y_STEP" "Y_DIR" "Z_STEP" "Z_DIR"
+    "E0_STEP" "E0_DIR" "E1_STEP" "E1_DIR" "VDD_5V" DGND "E2_STEP" "E2_DIR"
+    "STEP_U" "DIR_U" "STEP_V" "DIR_V" "STEP_W" "DIR_W" FET1 FET2
+    FET3 FET4 FET5 FET6 "X-MIN" "X-MAX" "ADC_VDD" "Y-MIN"
+    "Y-MAX" "Z-MIN" "Z-MAX" SDA LED "AXIS_ENAn" "MACHINE_PWR" ESTOP
+    "ESTOP_SW" "Net-(P8-Pad46)" "Net-(P8-Pad45)" "Net-(P8-Pad44)" "Net-(P8-Pad43)" "Net-(P8-Pad42)" "Net-(P8-Pad41)" "Net-(P8-Pad40)"
+    "Net-(P8-Pad39)" "Net-(P8-Pad38)" "Net-(P8-Pad37)" "Net-(P8-Pad36)" "Net-(P8-Pad35)" "Net-(P8-Pad34)" "Net-(P8-Pad33)" "Net-(P8-Pad32)"
+    "Net-(P8-Pad31)" "Net-(P8-Pad30)" "Net-(P8-Pad29)" "Net-(P8-Pad28)" "Net-(P8-Pad27)" "Net-(P8-Pad25)" "Net-(P8-Pad24)" "Net-(P8-Pad23)"
+    "Net-(P8-Pad22)" "Net-(P8-Pad21)" "Net-(P8-Pad20)" "Net-(P8-Pad6)" "Net-(P8-Pad5)" "Net-(P8-Pad4)" "Net-(P8-Pad3)" "Net-(P9-Pad19)"
+    "Net-(P9-Pad10)" "Net-(P9-Pad9)" "SYS_5V"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
