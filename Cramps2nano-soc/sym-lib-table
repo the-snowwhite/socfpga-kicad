@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Cramps2_nano-soc-rescue)(type Legacy)(uri ${KIPRJMOD}/Cramps2_nano-soc-rescue.lib)(options "")(descr ""))
+)
