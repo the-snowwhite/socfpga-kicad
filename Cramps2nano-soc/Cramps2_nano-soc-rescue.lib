@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Cramps2_nano-soc-rescue_BB_EXP_CONN_P8
+# BB_EXP_CONN_P8
 #
-DEF Cramps2_nano-soc-rescue_BB_EXP_CONN_P8 U 0 1 Y Y 1 F N
+DEF BB_EXP_CONN_P8 U 0 1 Y Y 1 F N
 F0 "U" -5 1255 60 H V C CNN
-F1 "Cramps2_nano-soc-rescue_BB_EXP_CONN_P8" 0 -1215 60 H V C CNN
+F1 "BB_EXP_CONN_P8" 0 -1215 60 H V C CNN
 F2 "" -350 -1200 60 H V C CNN
 F3 "" -350 -1200 60 H V C CNN
 DRAW
@@ -59,11 +59,11 @@ X TIMER5 9 -600 700 200 R 50 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Cramps2_nano-soc-rescue_BB_EXP_CONN_P9
+# BB_EXP_CONN_P9
 #
-DEF Cramps2_nano-soc-rescue_BB_EXP_CONN_P9 U 0 1 Y Y 1 F N
+DEF BB_EXP_CONN_P9 U 0 1 Y Y 1 F N
 F0 "U" -5 1255 60 H V C CNN
-F1 "Cramps2_nano-soc-rescue_BB_EXP_CONN_P9" 0 -1220 60 H V C CNN
+F1 "BB_EXP_CONN_P9" 0 -1220 60 H V C CNN
 F2 "" -350 -1200 60 H V C CNN
 F3 "" -350 -1200 60 H V C CNN
 DRAW
@@ -117,11 +117,11 @@ X PWR_BUT 9 -600 700 200 R 50 40 1 1 N
 ENDDRAW
 ENDDEF
 #
-# Cramps2_nano-soc-rescue_CONN_02X05
+# CONN_02X05
 #
-DEF Cramps2_nano-soc-rescue_CONN_02X05 P 0 1 Y N 1 F N
+DEF CONN_02X05 P 0 1 Y N 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "Cramps2_nano-soc-rescue_CONN_02X05" 0 -300 50 H V C CNN
+F1 "CONN_02X05" 0 -300 50 H V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
@@ -155,11 +155,11 @@ X P9 9 -250 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Cramps2_nano-soc-rescue_CONN_02X20
+# CONN_02X20
 #
-DEF Cramps2_nano-soc-rescue_CONN_02X20 P 0 1 Y N 1 F N
+DEF CONN_02X20 P 0 1 Y N 1 F N
 F0 "P" 0 1050 50 H V C CNN
-F1 "Cramps2_nano-soc-rescue_CONN_02X20" 0 0 50 V V C CNN
+F1 "CONN_02X20" 0 0 50 V V C CNN
 F2 "" 0 -950 50 H V C CNN
 F3 "" 0 -950 50 H V C CNN
 $FPLIST
@@ -253,11 +253,29 @@ X P9 9 -250 550 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Cramps2_nano-soc-rescue_R
+# HEADER_6
 #
-DEF Cramps2_nano-soc-rescue_R R 0 0 N Y 1 F N
+DEF HEADER_6 J 0 0 Y Y 1 F N
+F0 "J" 0 350 60 H V C CNN
+F1 "HEADER_6" 0 -350 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 100 300 0 -300 0 1 0 N
+X ~ 1 -100 250 100 R 35 50 1 1 P
+X ~ 2 -100 150 100 R 35 50 1 1 P
+X ~ 3 -100 50 100 R 35 50 1 1 P
+X ~ 4 -100 -50 100 R 35 50 1 1 P
+X ~ 5 -100 -150 100 R 35 50 1 1 P
+X ~ 6 -100 -250 100 R 35 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R
+#
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Cramps2_nano-soc-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -268,63 +286,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+3.3V
-#
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF ~power_GND #PWR 0 0 N N 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
