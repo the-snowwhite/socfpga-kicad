@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+LIBS:touchsense7-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L touchsense2:74LVC2G17 U1
+U 2 1 587D8557
+P 2750 3700
+F 0 "U1" H 2650 3850 50  0000 C CNN
+F 1 "74LVC2G17" H 2750 3550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2750 3700 50  0001 C CNN
+F 3 "" H 2750 3700 50  0000 C CNN
+	2    2750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L touchsense2:74LVC2G17 U1
+U 1 1 587D85B2
+P 2650 4200
+F 0 "U1" H 2550 4350 50  0000 C CNN
+F 1 "74LVC2G17" H 2650 4050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2650 4200 50  0001 C CNN
+F 3 "" H 2650 4200 50  0000 C CNN
+	1    2650 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L touchsense2:C C2
+U 1 1 587D87A0
+P 4350 4200
+F 0 "C2" H 4375 4300 50  0000 L CNN
+F 1 "0,1u" H 4375 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4388 4050 50  0001 C CNN
+F 3 "" H 4350 4200 50  0000 C CNN
+	1    4350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L touchsense2:VCC #PWR01
+U 1 1 587DA972
+P 4350 3300
+F 0 "#PWR01" H 4350 3150 50  0001 C CNN
+F 1 "VCC" H 4350 3450 50  0000 C CNN
+F 2 "" H 4350 3300 50  0000 C CNN
+F 3 "" H 4350 3300 50  0000 C CNN
+	1    4350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L touchsense2:GND #PWR02
+U 1 1 587DA98C
+P 4350 4650
+F 0 "#PWR02" H 4350 4400 50  0001 C CNN
+F 1 "GND" H 4350 4500 50  0000 C CNN
+F 2 "" H 4350 4650 50  0000 C CNN
+F 3 "" H 4350 4650 50  0000 C CNN
+	1    4350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L touchsense2:R R1
+U 1 1 587DAB17
+P 3150 3700
+F 0 "R1" V 3230 3700 50  0000 C CNN
+F 1 "2k" V 3150 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3080 3700 50  0001 C CNN
+F 3 "" H 3150 3700 50  0000 C CNN
+	1    3150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L touchsense2:CONN_01X01 P2
+U 1 1 587DAB5C
+P 3650 3700
+F 0 "P2" H 3650 3800 50  0000 C CNN
+F 1 "Sense_Pad" V 3750 3700 50  0000 C CNN
+F 2 "touch:1pin_pad-round_s" H 3650 3700 50  0001 C CNN
+F 3 "" H 3650 3700 50  0000 C CNN
+	1    3650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L touchsense2:C C1
+U 1 1 587DABD1
+P 3350 4400
+F 0 "C1" H 3375 4500 50  0000 L CNN
+F 1 "10p" H 3375 4300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3388 4250 50  0001 C CNN
+F 3 "" H 3350 4400 50  0000 C CNN
+	1    3350 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L touchsense2:CONN_01X04 P1
+U 1 1 587DACE7
+P 1900 3500
+F 0 "P1" H 1900 3750 50  0000 C CNN
+F 1 "CONN_01X04" V 2000 3500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1900 3500 50  0001 C CNN
+F 3 "" H 1900 3500 50  0000 C CNN
+	1    1900 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 3700 3350 3700
+Wire Wire Line
+	2400 3700 2450 3700
+Wire Wire Line
+	2200 4200 2400 4200
+Wire Wire Line
+	4350 4350 4350 4550
+Wire Wire Line
+	4350 3300 4350 3350
+Wire Wire Line
+	2100 3350 4350 3350
+Connection ~ 4350 3350
+Wire Wire Line
+	2400 3700 2400 3550
+Wire Wire Line
+	2400 3550 2100 3550
+Wire Wire Line
+	2200 4200 2200 3450
+Wire Wire Line
+	2200 3450 2100 3450
+Wire Wire Line
+	2950 4200 3350 4200
+Wire Wire Line
+	3350 3700 3350 4200
+Connection ~ 3350 3700
+Connection ~ 3350 4200
+Wire Wire Line
+	2100 3650 2100 4550
+Wire Wire Line
+	2100 4550 3350 4550
+Connection ~ 4350 4550
+Connection ~ 3350 4550
+Wire Wire Line
+	4350 3350 4350 4050
+Wire Wire Line
+	3350 3700 3450 3700
+Wire Wire Line
+	3350 4200 3350 4250
+Wire Wire Line
+	4350 4550 4350 4650
+Wire Wire Line
+	3350 4550 4350 4550
+$EndSCHEMATC
