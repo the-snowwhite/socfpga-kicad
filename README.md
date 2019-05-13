@@ -10,3 +10,6 @@ Schematic for GPIO -> Cramps Interface
 Schematic and pcb designs for Capasitive touch sensor (for depth probing)
 
 <img src="./CapSense/TouchSense7_3d.png" width="148">
+
+PCB's can be ordered from SeeedStudio:
+https://www.seeedstudio.com/Capsense-Touchsense-g-1222872
