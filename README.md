@@ -4,6 +4,7 @@ Hardware addons for mksocfpga
 Schematic for GPIO -> Cramps Interface
 
 <img src="./Cramps2nano-soc/Cramps2_nano-soc2.png" width="512">
+
 [Cramps2_nano-soc2_pcb 3D view](Cramps2nano-soc/Cramps2_nano-soc2_pcb.stl)
 
 ---
