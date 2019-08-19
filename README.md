@@ -13,3 +13,12 @@ Schematic and pcb designs for Capasitive touch sensor (for depth probing)
 
 PCB's can be ordered from SeeedStudio:
 https://www.seeedstudio.com/Capsense-Touchsense-g-1222872
+
+---
+Trinamic BOB mounting pcb's
+
+<img src="./Trinamic/TMC262/TMC262_mount/TMC262_mount.png" width="768">
+
+---  
+
+<img src="./Trinamic/TMC2660_mount/TMC2660_mount2.png" width="768">
