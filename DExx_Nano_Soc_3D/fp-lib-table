@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MY_Connector_PinHeader_2.00mm)(type KiCad)(uri /home/mib/Developer/ext_repos/MY_kicad-footprints/MY_Connector_PinHeader_2.00mm.pretty)(options "")(descr ""))
+)
