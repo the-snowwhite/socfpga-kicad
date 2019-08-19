@@ -18,8 +18,8 @@ https://www.seeedstudio.com/Capsense-Touchsense-g-1222872
 ---
 Trinamic BOB mounting pcb's
 
-<img src="./Trinamic/TMC262/TMC262_mount/TMC262_mount.png" width="768">
+<img src="./Trinamic/TMC262/TMC262_mount/TMC262_mount.png" width="512">
 
 ---  
 
-<img src="./Trinamic/TMC2660_mount/TMC2660_mount2.png" width="768">
+<img src="./Trinamic/TMC2660_mount/TMC2660_mount2.png" width="512">
