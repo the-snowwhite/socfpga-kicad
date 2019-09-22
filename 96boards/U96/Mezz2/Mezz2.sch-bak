@@ -1,0 +1,536 @@
+EESchema Schematic File Version 4
+LIBS:Mezz2-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mezz1-rescue:Conn_01x22-Connector_Generic J1
+U 1 1 5BD06637
+P 3700 3550
+F 0 "J1" H 3620 4767 50  0000 C CNN
+F 1 "Conn_01x22" H 3620 4676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 3700 3550 50  0001 C CNN
+F 3 "~" H 3700 3550 50  0001 C CNN
+	1    3700 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2150 4000 2150
+Wire Wire Line
+	4000 2150 4000 2550
+Wire Wire Line
+	5000 2450 4050 2450
+Wire Wire Line
+	4050 2450 4050 2650
+Wire Wire Line
+	4050 2650 3900 2650
+Wire Wire Line
+	5000 2550 4100 2550
+Wire Wire Line
+	4100 2550 4100 2750
+Wire Wire Line
+	4100 2750 3900 2750
+Wire Wire Line
+	5000 2650 4150 2650
+Wire Wire Line
+	4150 2650 4150 2850
+Wire Wire Line
+	5000 2850 4200 2850
+Wire Wire Line
+	5000 2950 4250 2950
+Wire Wire Line
+	5000 3150 3900 3150
+Wire Wire Line
+	5000 3250 3900 3250
+Wire Wire Line
+	5000 3450 4550 3450
+Wire Wire Line
+	4550 3450 4550 3350
+Wire Wire Line
+	4550 3350 3900 3350
+Wire Wire Line
+	5000 3550 4500 3550
+Wire Wire Line
+	4500 3550 4500 3450
+Wire Wire Line
+	4500 3450 3900 3450
+Wire Wire Line
+	5000 3750 4450 3750
+Wire Wire Line
+	4450 3750 4450 3550
+Wire Wire Line
+	4450 3550 3900 3550
+Wire Wire Line
+	4400 3850 4400 3650
+Wire Wire Line
+	4400 3650 3900 3650
+Wire Wire Line
+	4400 3850 5000 3850
+Wire Wire Line
+	5000 4050 4350 4050
+Wire Wire Line
+	4350 4050 4350 3750
+Wire Wire Line
+	4350 3750 3900 3750
+Wire Wire Line
+	5000 4150 4300 4150
+Wire Wire Line
+	4300 4150 4300 3850
+Wire Wire Line
+	4300 3850 3900 3850
+Wire Wire Line
+	5000 4350 4250 4350
+Wire Wire Line
+	4250 4350 4250 3950
+Wire Wire Line
+	4250 3950 3900 3950
+Wire Wire Line
+	5000 4450 4200 4450
+Wire Wire Line
+	4200 4450 4200 4050
+Wire Wire Line
+	4200 4050 3900 4050
+Wire Wire Line
+	5000 4650 4150 4650
+Wire Wire Line
+	4150 4650 4150 4150
+Wire Wire Line
+	4150 4150 3900 4150
+Wire Wire Line
+	5000 4750 4100 4750
+Wire Wire Line
+	4100 4750 4100 4250
+Wire Wire Line
+	4100 4250 3900 4250
+Wire Wire Line
+	5000 4950 4050 4950
+Wire Wire Line
+	4050 4950 4050 4350
+Wire Wire Line
+	4050 4350 3900 4350
+Wire Wire Line
+	4000 2550 3900 2550
+Wire Wire Line
+	5000 5050 4000 5050
+Wire Wire Line
+	4000 5050 4000 4450
+Wire Wire Line
+	4000 4450 3900 4450
+Wire Wire Line
+	5000 4550 4900 4550
+Wire Wire Line
+	5000 4850 3900 4850
+Wire Wire Line
+	3900 4850 3900 4650
+Text Label 4150 2450 0    50   ~ 0
+MIO9_SPI1_CS
+Text Label 4150 2550 0    50   ~ 0
+MIO6_SPI1_SCLK
+Text Label 4150 2650 0    50   ~ 0
+MIO10_SPI1_MISO
+Wire Wire Line
+	4150 2850 3900 2850
+Text Label 4150 2150 0    50   ~ 0
+MIO11_SPI1_MOSI
+Text Label 4350 2850 0    50   ~ 0
+CSI0_MCLK
+Text Label 4350 2950 0    50   ~ 0
+CSI1_MCLK
+Text Label 4350 3150 0    50   ~ 0
+DSI_CLK_P
+Text Label 4350 3250 0    50   ~ 0
+DSI_CLK_N
+Text Label 4000 3350 0    50   ~ 0
+DSI_D0_P
+Text Label 4000 3450 0    50   ~ 0
+DSI_D0_N
+Text Label 4000 3550 0    50   ~ 0
+DSI_D1_P
+Text Label 4000 3650 0    50   ~ 0
+DSI_D1_N
+Text Label 4400 4050 0    50   ~ 0
+DSI_D2_P
+Text Label 4400 4150 0    50   ~ 0
+DSI_D2_N
+Text Label 4400 4350 0    50   ~ 0
+DSI_D3_P
+Text Label 4400 4450 0    50   ~ 0
+DSI_D3_N
+Text Label 4400 4650 0    50   ~ 0
+USB2D3_P
+Text Label 4400 4750 0    50   ~ 0
+USB2D3_N
+Text Label 4400 4950 0    50   ~ 0
+HSIC_STR
+Text Label 4400 5050 0    50   ~ 0
+HSIC_DATA
+$Comp
+L Mezz1-rescue:GND-power #PWR0101
+U 1 1 5BD4B5AF
+P 3900 5000
+F 0 "#PWR0101" H 3900 4750 50  0001 C CNN
+F 1 "GND" H 3930 4830 50  0000 C CNN
+F 2 "" H 3900 5000 50  0001 C CNN
+F 3 "" H 3900 5000 50  0001 C CNN
+	1    3900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5000 3900 4850
+Connection ~ 3900 4850
+Wire Wire Line
+	3900 4650 3900 4550
+Connection ~ 3900 4650
+Connection ~ 3900 4550
+Wire Wire Line
+	5000 2750 4900 2750
+Wire Wire Line
+	4900 2750 4900 3050
+Connection ~ 4900 4550
+Wire Wire Line
+	4900 4550 3900 4550
+Wire Wire Line
+	5000 3050 4900 3050
+Connection ~ 4900 3050
+Wire Wire Line
+	5000 3350 4900 3350
+Wire Wire Line
+	4900 3050 4900 3350
+Connection ~ 4900 3350
+Wire Wire Line
+	4900 3350 4900 3650
+Wire Wire Line
+	5000 3650 4900 3650
+Connection ~ 4900 3650
+Wire Wire Line
+	4900 3650 4900 3950
+Wire Wire Line
+	5000 3950 4900 3950
+Connection ~ 4900 3950
+Wire Wire Line
+	4900 3950 4900 4250
+Wire Wire Line
+	5000 4250 4900 4250
+Connection ~ 4900 4250
+Wire Wire Line
+	4900 4250 4900 4550
+$Comp
+L mezza-rescue:CONN_02X30 P1
+U 1 1 5D8D90E8
+P 5250 3600
+F 0 "P1" H 5250 5265 50  0000 C CNN
+F 1 "CONN_02X30" H 5250 5174 50  0000 C CNN
+F 2 "96boards:61083-063400LF" H 5250 3100 50  0001 C CNN
+F 3 "" H 5250 3100 50  0001 C CNN
+F 4 "5179031-2" H 5250 2000 50  0000 C CNN "MPN"
+	1    5250 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 2950
+Wire Wire Line
+	5550 2350 5550 2650
+Wire Wire Line
+	5550 2350 5500 2350
+Connection ~ 5550 3250
+Wire Wire Line
+	5550 2950 5500 2950
+Wire Wire Line
+	5550 3250 5550 2950
+Connection ~ 5550 3550
+Wire Wire Line
+	5550 3250 5500 3250
+Wire Wire Line
+	5550 3550 5550 3250
+Connection ~ 5550 4050
+Wire Wire Line
+	5550 3550 5550 4050
+Wire Wire Line
+	5500 3550 5550 3550
+Connection ~ 5550 4350
+Wire Wire Line
+	5550 4050 5550 4350
+Wire Wire Line
+	5500 4050 5550 4050
+Connection ~ 5550 4650
+Wire Wire Line
+	5550 4350 5550 4650
+Wire Wire Line
+	5500 4350 5550 4350
+Wire Wire Line
+	5550 4950 5500 4950
+Connection ~ 5550 4950
+Wire Wire Line
+	5550 4650 5550 4950
+Wire Wire Line
+	5500 4650 5550 4650
+Text Label 6100 4150 2    50   ~ 0
+ CSI1_D0_P
+Text Label 6150 4250 2    50   ~ 0
+ CSI1_D0_N
+Text Label 6150 4450 2    50   ~ 0
+CSI1_D1_P
+Text Label 6150 4550 2    50   ~ 0
+CSI1_D1_N
+Text Label 6150 4750 2    50   ~ 0
+CSI1_C_P
+Text Label 6150 4850 2    50   ~ 0
+CSI1_C_N
+Connection ~ 6500 4950
+Wire Wire Line
+	6500 5150 6500 4950
+$Comp
+L Mezz1-rescue:GND-power #PWR0103
+U 1 1 5BDEF2E5
+P 6500 5150
+F 0 "#PWR0103" H 6500 4900 50  0001 C CNN
+F 1 "GND" H 6505 4977 50  0000 C CNN
+F 2 "" H 6500 5150 50  0001 C CNN
+F 3 "" H 6500 5150 50  0001 C CNN
+	1    6500 5150
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6600 5050
+Wire Wire Line
+	6800 5050 6800 5000
+$Comp
+L Mezz1-rescue:VCC-power #PWR0102
+U 1 1 5BDEAD46
+P 6800 5000
+F 0 "#PWR0102" H 6800 4850 50  0001 C CNN
+F 1 "VCC" H 6817 5173 50  0000 C CNN
+F 2 "" H 6800 5000 50  0001 C CNN
+F 3 "" H 6800 5000 50  0001 C CNN
+	1    6800 5000
+	-1   0    0    -1  
+$EndComp
+Text Label 6200 3950 2    50   ~ 0
+HSEXP_I2C3_SDA
+Wire Wire Line
+	6250 3950 5500 3950
+Text Label 6200 3850 2    50   ~ 0
+HSEXP_I2C3_SCL
+Text Label 6200 3750 2    50   ~ 0
+HSEXP_I2C2_SDA
+Text Label 6200 3650 2    50   ~ 0
+HSEXP_I2C2_SCL
+Text Label 6050 3450 2    50   ~ 0
+CSI0_D3_N
+Wire Wire Line
+	6050 3500 6050 3450
+Wire Wire Line
+	6650 3500 6050 3500
+Wire Wire Line
+	6050 3450 5500 3450
+Wire Wire Line
+	6100 3350 5500 3350
+Wire Wire Line
+	6100 3400 6650 3400
+Text Label 6050 3350 2    50   ~ 0
+CSI0_D3_P
+Text Label 6050 3150 2    50   ~ 0
+CSI0_D2_N
+Text Label 6050 3050 2    50   ~ 0
+CSI0_D2_P
+Text Label 6050 2850 2    50   ~ 0
+CSI0_D1_N
+Text Label 6050 2750 2    50   ~ 0
+CSI0_D1_P
+Text Label 6050 2550 2    50   ~ 0
+CSI0_D0_N
+Text Label 6050 2450 2    50   ~ 0
+CSI0_D0_P
+Text Label 6050 2250 2    50   ~ 0
+CSI0_C_N
+Text Label 6050 2150 2    50   ~ 0
+CSI0_C_P
+Wire Wire Line
+	6450 2600 6650 2600
+Wire Wire Line
+	6450 2150 6450 2600
+Wire Wire Line
+	6100 3350 6100 3400
+Wire Wire Line
+	6600 4700 6650 4700
+Wire Wire Line
+	6600 5050 6600 4700
+Wire Wire Line
+	5500 5050 6600 5050
+Wire Wire Line
+	6500 4950 5550 4950
+Wire Wire Line
+	6500 4600 6650 4600
+Wire Wire Line
+	6500 4950 6500 4600
+Wire Wire Line
+	6450 4500 6650 4500
+Wire Wire Line
+	6450 4850 6450 4500
+Wire Wire Line
+	5500 4850 6450 4850
+Wire Wire Line
+	6400 4400 6650 4400
+Wire Wire Line
+	6400 4750 6400 4400
+Wire Wire Line
+	5500 4750 6400 4750
+Wire Wire Line
+	6350 4300 6650 4300
+Wire Wire Line
+	6350 4550 6350 4300
+Wire Wire Line
+	5500 4550 6350 4550
+Wire Wire Line
+	6300 4200 6650 4200
+Wire Wire Line
+	6300 4450 6300 4200
+Wire Wire Line
+	5500 4450 6300 4450
+Wire Wire Line
+	6250 4100 6650 4100
+Wire Wire Line
+	6250 4250 6250 4100
+Wire Wire Line
+	5500 4250 6250 4250
+Wire Wire Line
+	6200 4000 6650 4000
+Wire Wire Line
+	6200 4150 6200 4000
+Wire Wire Line
+	5500 4150 6200 4150
+Wire Wire Line
+	6250 3900 6650 3900
+Wire Wire Line
+	6250 3950 6250 3900
+Wire Wire Line
+	6250 3800 6650 3800
+Wire Wire Line
+	6250 3850 6250 3800
+Wire Wire Line
+	5500 3850 6250 3850
+Wire Wire Line
+	6250 3700 6650 3700
+Wire Wire Line
+	6250 3750 6250 3700
+Wire Wire Line
+	5500 3750 6250 3750
+Wire Wire Line
+	6250 3600 6650 3600
+Wire Wire Line
+	6250 3650 6250 3600
+Wire Wire Line
+	5500 3650 6250 3650
+Wire Wire Line
+	6100 3150 5500 3150
+Wire Wire Line
+	6100 3300 6100 3150
+Wire Wire Line
+	6650 3300 6100 3300
+Wire Wire Line
+	6150 3200 6650 3200
+Wire Wire Line
+	6150 3050 6150 3200
+Wire Wire Line
+	5500 3050 6150 3050
+Wire Wire Line
+	6200 2850 5500 2850
+Wire Wire Line
+	6200 3100 6200 2850
+Wire Wire Line
+	6650 3100 6200 3100
+Wire Wire Line
+	6250 3000 6650 3000
+Wire Wire Line
+	6250 2750 6250 3000
+Wire Wire Line
+	5500 2750 6250 2750
+Wire Wire Line
+	6300 2900 6650 2900
+Wire Wire Line
+	6300 2550 6300 2900
+Wire Wire Line
+	5500 2550 6300 2550
+Wire Wire Line
+	6350 2450 5500 2450
+Wire Wire Line
+	6350 2800 6350 2450
+Wire Wire Line
+	6650 2800 6350 2800
+Wire Wire Line
+	6400 2250 5500 2250
+Wire Wire Line
+	6400 2700 6400 2250
+Wire Wire Line
+	6650 2700 6400 2700
+Wire Wire Line
+	6450 2150 5500 2150
+$Comp
+L Mezz1-rescue:Conn_01x22-Connector_Generic J2
+U 1 1 5BD06744
+P 6850 3600
+F 0 "J2" H 6770 4817 50  0000 C CNN
+F 1 "Conn_01x22" H 6770 4726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 6850 3600 50  0001 C CNN
+F 3 "~" H 6850 3600 50  0001 C CNN
+	1    6850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2950 3900 2950
+Wire Wire Line
+	4200 2850 4200 2950
+Wire Wire Line
+	4250 2950 4250 3050
+Wire Wire Line
+	4250 3050 3900 3050
+Wire Wire Line
+	5500 2650 5550 2650
+Connection ~ 5550 2650
+Wire Wire Line
+	5550 2650 5550 2950
+NoConn ~ 5000 2250
+NoConn ~ 5000 2350
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D8FC698
+P 3650 5000
+F 0 "#FLG0102" H 3650 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 3660 5180 50  0000 C CNN
+F 2 "" H 3650 5000 50  0001 C CNN
+F 3 "~" H 3650 5000 50  0001 C CNN
+	1    3650 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 5000 3650 4850
+Wire Wire Line
+	3650 4850 3900 4850
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D93135C
+P 7090 5000
+F 0 "#FLG0101" H 7090 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 7090 5173 50  0000 C CNN
+F 2 "" H 7090 5000 50  0001 C CNN
+F 3 "~" H 7090 5000 50  0001 C CNN
+	1    7090 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7090 5000 7090 5050
+Wire Wire Line
+	6600 5050 6800 5050
+Connection ~ 6800 5050
+Wire Wire Line
+	6800 5050 7090 5050
+$EndSCHEMATC

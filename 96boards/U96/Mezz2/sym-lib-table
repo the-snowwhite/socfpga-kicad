@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name digikey_symbols1)(type Legacy)(uri /home/mib/Documents/Digikey_Kicad/UL_51790312-metric/KiCAD/symbols.lib)(options "")(descr ""))
+  (lib (name Mezz1-rescue)(type Legacy)(uri ${KIPRJMOD}/Mezz2-rescue.lib)(options "")(descr ""))
+  (lib (name mezza-rescue)(type Legacy)(uri ${KIPRJMOD}/mezza-rescue.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+)
